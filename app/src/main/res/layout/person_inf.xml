@@ -55,4 +55,10 @@
         android:textSize="20sp"
         android:textColor="#1E90FF"
         tools:ignore="LabelFor" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
 </LinearLayout>
