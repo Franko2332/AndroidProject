@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="button">MyButton</string>
 </resources>
