@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:autofillHints="EditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        tools:ignore="LabelFor" />
+</LinearLayout>
